@@ -16,7 +16,8 @@ Steps for running this application
 2. Open Solution "NameSorter" in Visual Studio 2017
 3. Build Solution
 4. Executable named "name-sorter" is created. This can be found at <your file path>\NameSorter\name-sorter\bin\Debug
-5. Invoke this executable on console as follows from the above file location :
-   name-sorter ./unsorted-names-list.txt
-6. Output shall be displayed on the screen and also saved in a file named "sorted-names-list.txt" at the same location as that of input
-   file viz. unsorted-names-list.txt
+5. This executable accepts input file name containing unsorted names as the argument
+6. Invoke this executable on console as follows from the above file location :
+   Usage: name-sorter <file name containing unsorted names>
+   e.g  name-sorter ./unsorted-names-list.txt
+6. Output shall be displayed on the screen and also saved in a file named "sorted-names-list.txt" at execution directory
